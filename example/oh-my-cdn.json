@@ -1,0 +1,10 @@
+{
+  "directory": "vendor",
+  "targets": {
+    "react": "https://fb.me/reaasfddfact-0.14.7.js",
+    "react-dom": {
+      "filename": "react-dom.min.js",
+      "url": "https://fb.asdf/react-dom-0.14.7.min.js"
+    }
+  }
+}

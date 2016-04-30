@@ -1,0 +1,26 @@
+{
+  "name": "oh-my-cdn",
+  "version": "0.1.0",
+  "description": "Fetch and host scripts from Internet much easier",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cdn",
+    "vendor"
+  ],
+  "bin": {
+    "oh-my-cdn": "./index.js"
+  },
+  "author": "Dick Choi <fluke8259@gmail.com> (http://rokt33r.github.io)",
+  "license": "ISC",
+  "dependencies": {
+    "got": "^6.3.0",
+    "lodash": "^4.11.1"
+  },
+  "devDependencies": {
+    "ava": "^0.14.0",
+    "standard": "^6.0.8"
+  }
+}
