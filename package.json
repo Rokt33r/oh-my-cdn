@@ -14,7 +14,7 @@
     "oh-my-cdn": "./index.js"
   },
   "author": "Dick Choi <fluke8259@gmail.com> (http://rokt33r.github.io)",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "got": "^6.3.0",
     "lodash": "^4.11.1"
