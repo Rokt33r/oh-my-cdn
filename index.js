@@ -7,7 +7,7 @@ var config
 try {
   config = JSON.parse(fs.readFileSync(path.resolve('oh-my-cdn.json')))
 } catch (err) {
-  console.error(err)
+  console.error('oh-my-cdn.json doesn\'t exist.')
   process.exit(1)
 }
 console.log('Oh My CDN is fetching your targets now...')
