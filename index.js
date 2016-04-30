@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const _ = require('lodash')
 const got = require('got')
 const fs = require('fs')
