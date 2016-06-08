@@ -4,6 +4,7 @@ const _ = require('lodash')
 const got = require('got')
 const fs = require('fs')
 const path = require('path')
+const mkdirp = require('mkdirp')
 
 var config
 try {
@@ -21,7 +22,7 @@ if (config.targets == null) {
 }
 var targets = config.targets
 try {
-  fs.mkdirSync(path.resolve(directory))
+  mkdirp.sync(path.resolve(directory))
 } catch (err) {
   if (err.code !== 'EEXIST') {
     throw err
